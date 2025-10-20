@@ -3,38 +3,36 @@ body {
   overflow-x: hidden;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: azure;
+  background-color: #FFFFFF;
 }
 
-
-/* navigation bar (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav) */
 
 .topnav {
   overflow: hidden;
   /* background-color: #333; */
-  /* commaderij color */
-  background-color: rgb(108 50 137);
+  background-color: #FFFFFF;
 }
 
 .topnav a {
   margin-top: 5px;
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #942D88;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+    font-family: Roboto, Slab, sans-serif;
+
 }
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: #70BBA0;
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  text-decoration: underline;
 }
 
 .topnav .icon {
@@ -85,8 +83,7 @@ footer{
   padding-inline-end: 5%;
   text-align: center;
   /* height: 3rem; */
-  /* commanderij color */
-  background-color: #007fc9;
+  background-color: #942D88;
   color: white;
 }
 
